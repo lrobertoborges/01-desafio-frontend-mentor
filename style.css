@@ -8,9 +8,10 @@
 }
 
 .content {
-    margin: 100px 100px;
-    width: 50%;
+    margin: 100px;
+    width: 100%;
     height: auto;
+    display: flex;
 }
 
 .result {
@@ -66,5 +67,19 @@ p {
     color: hsla(0, 0%, 100%, 0.6);
     margin: 20px;
     font-size: 18px;
+}
+
+.summary {
+    width: 400px;
+    height: 520px;
+    padding: 50px;
+    background-image: linear-gradient(to top, hsl(221, 100%, 96%), hsl(0, 0%, 100%));
+    border-radius:  35px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+#input-reaction {
+    background: url(./assets/images/icon-reaction.svg) no-repeat left / 1.3em;
+    padding-left: 20px;
 }
 
