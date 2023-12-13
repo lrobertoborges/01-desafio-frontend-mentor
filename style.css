@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.content {
+    margin: 100px;
+    padding: 50px;
+    background-color: hsl(241, 81%, 54%);
+}
