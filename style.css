@@ -8,10 +8,11 @@
 }
 
 .content {
-    margin: 100px;
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: center;
+    margin: 60px 20px;
 }
 
 .result {
