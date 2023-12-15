@@ -7,6 +7,13 @@
     text-decoration: none;
 }
 
+body {
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    max-width: 1440px;
+}
+
 .content {
     width: 100%;
     height: auto;
@@ -128,8 +135,6 @@ p {
     font-family: 'Hanken Grotesk';
     font-size: 18px;
     color: hsl(234, 85%, 45%);
-    
-    
 }
 
 #button {
@@ -142,4 +147,19 @@ p {
     color: hsl(0, 0%, 100%);
     border: none;
     margin-top: 25px;
+}
+
+#button:hover {
+    background-color: hsl(224, 30%, 27%);
+    transform: scale(1.1);
+}
+
+@media (max-width: 375px) {
+    .result {
+        width: 375px;
+        height: auto;
+        padding: 50px;
+        background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+        border-radius: 35px;
+    }
 }
