@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto 01</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="content">
-        <div class="result">
+    <main id="container">
+        <div id="result">
             <h3 class="text-result"> Your Result</h3>
 
             <div class="elipse-result">
-                <h1>79</h1>
+                <h1>76</h1>
                 <h5>of 100</h5>
             </div>
 
@@ -22,46 +22,62 @@
             <p>You scored higher than 65% of the people who have taken these tests.</p>
         </div>
 
+        <div id="summary">
             <div>
-                <h3 class="summary-title">Summary</h3>
+                <h3>Summary</h3>
             </div>
 
-            <div class="summary">
-                <h3 id="summary-title">Summary</h3>
+            <div>
                 <ul>
                     <li id="reaction-list">
                         <img class="img-list" src="./assets/images/icon-reaction.svg">
+
                         <h4 class="title-list">Reaction</h4>
-                        <h5 class="number-list"> <span class="number-result">82</span><span class="total-100"> / 100</span></h5>
+
+                        <div id="number-result">
+                            <h5 class="number-list"><span class="number-result">80</span><span class="total-100"> / 100</span></h5>
+                        </div>
                     </li>
                 </ul>
 
                 <ul>
                     <li id="memory-list">
                         <img class="img-list" src="./assets/images/icon-memory.svg">
+
                         <h4 class="title-list">Memory</h4>
-                        <h5 class="number-list"> <span class="number-result">74</span><span class="total-100"> / 100</span></h5>
+
+                        <div id="number-result">
+                            <h5 class="number-list"><span class="number-result">92</span><span class="total-100"> / 100</span></h5>
+                        </div>
                     </li>
                 </ul>
 
                 <ul>
                     <li id="verbal-list">
                         <img class="img-list" src="./assets/images/icon-verbal.svg">
+
                         <h4 class="title-list">Verbal</h4>
-                        <h5 class="number-list"><span class="number-result">78</span><span class="total-100"> / 100</span></h5>
+
+                        <div id="number-result">
+                            <h5 class="number-list"><span class="number-result">61</span><span class="total-100"> / 100</span></h5>
+                        </div>
                     </li>
                 </ul>
 
                 <ul>
                     <li id="visual-list">
                         <img class="img-list" src="./assets/images/icon-visual.svg">
+
                         <h4 class="title-list">Visual</h4>
-                        <h5 class="number-list"> <span class="number-result">85</span><span class="total-100"> / 100</span></h5>
+
+                        <div id="number-result">
+                            <h5 class="number-list"><span class="number-result">72</span><span class="total-100"> / 100</span></h5>
+                        </div>
                     </li>
                 </ul>
 
-                <button id="button">Continue</button>
-            </div>
+                <button id="button"><a href="./index.html" target="_blank">Continue</a></button>
+        </div>
     </main>
 </body>
 </html>
